@@ -1,0 +1,148 @@
+*{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+body{
+    background-color: rgb(8, 72, 13);
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+.task{
+    border: 2px solid green;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background: rgba( 15, 41, 183, 0.95 );
+    background: rgba( 15, 41, 183, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+border-bottom: 2px solid white;
+display: flex;
+justify-content: space-between;
+}
+
+.icon{
+    font-size: 22px;
+}
+
+.icon:hover{
+    font-size: 24px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.icon-star-full , .icon-bin2, .icon-angry{
+    opacity: 0.4;
+}
+
+.icon-star-full:hover{
+    color: rgb(229, 122, 8);
+    opacity: 1;
+}
+
+.icon-bin2{
+    margin-right: 10px;
+    font-size: 27px;
+}
+
+.icon-bin2:hover{
+    color: aliceblue;
+    font-size: 29px;
+    opacity: 1;
+}
+
+.icon-angry{
+    color: yellow;
+ margin-left: 10px;
+ font-size: 27px;
+
+}
+
+.icon-angry:hover{
+  color: red;
+  font-size: 29px;
+  opacity: 1;
+}
+
+h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    
+}
+
+form {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+input{
+    padding: 10px;
+    border-radius: 6px;
+    width: 35vw;
+    font-size: 21px;
+    text-align: center;
+}
+
+button{all:unset;}
+
+.icon-upload2{
+    font-size: 40px;
+    margin-left: 18px;
+    position: relative;
+    top: 9px;
+    border: 2px solid rgb(24, 187, 165);
+}
+
+.icon-upload2:hover{
+    font-size: 44px;
+    cursor: pointer;
+    transition: 0.3;
+    color: aqua;
+}
+
+.Tousse{
+    color: red;
+}
+
+
+/*for js */
+
+.dn{
+    display: none;
+}
+
+.icon-heart{
+    color: rgb(192, 42, 42);
+    font-size: 30px;
+}
+.icon-heart:hover{
+    color: rgb(177, 20, 20);
+    font-size: 32px;
+    transition: 0.2;
+}
+
+.finish{
+    text-decoration-line: line-through;
+    text-decoration-style: wavy;
+}
+
+.orange{
+    color: orange;
+    opacity: 1;
+}
