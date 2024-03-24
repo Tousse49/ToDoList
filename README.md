@@ -1,0 +1,1 @@
+This project is a lightweight, yet powerful to-do list application designed to help you manage your daily tasks efficiently. Built with the fundamental web technologies - HTML, CSS, and JavaScript - this application offers an intuitive user interface that allows users to add, remove, and mark tasks as completed with ease
